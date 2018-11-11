@@ -1,148 +1,82 @@
-body {
-    margin: 0;
-    box-sizing: border-box;
-    background-color: lightgray;
-    font-family: 'Work Sans', sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.pageWrap {
-    background-color: white;
-    width: 720px;
-    margin: 10px auto;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shop</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-/* header */
-header {
-    padding: 20px;
-}
+<body>
+    <div class="pageWrap">
+        <header>
+            <div class="logo">
+                <img class="logo" src="./assets/images/1000px-Speaker_Icon.svg.png" alt="logo">
+                <h2>The Speaker Shop</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li> <a href="#"> Home</a></li>
+                    <li> <a href="#"> Products</a></li>
+                    <li> <a href="#"> Checkout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1>Your home speaker. Reinvented.</h1>
+                <p>
+                    Combine beauty, quality and Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                </p>
+            </section>
+            <a href="#" id="video">WATCH STORY VIDEO <img src="./assets/images/play_video.png" alt="video"></a>
+            <section class="pictures">
+                <a href="#">
+                    <section class="teaser teaser1">
 
-/* / Logo / */
-div.logo {
-    display: inline-block;
-}
+                        <p>
+                            Beauty. Quality. Simplicity.
+                        </p>
 
-h2 {
-    display: inline-block;
-    padding: 0px 20px;
-
-}
-
-img.logo {
-    width: 30px;
-    vertical-align: text-bottom;
-}
-
-/* / nav / */
-
-nav {
-    display: inline-block;
-    float: right;
-    vertical-align: bottom;
-}
-
-li {
-    display: inline-block;
-    padding: 0px 10px;
-}
-
-a:link,
-a:visited {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    color: lightslategray;
-}
+                        <img src="./assets/images/open.png" alt="open">
 
 
-/* main */
+                    </section>
+                </a>
+                <a href="#">
+                    <section class="teaser teaser2">
 
-section {
-    padding: 20px 50px;
-}
+                        <p>
+                            High-end sound quality.
+                        </p>
 
-#video {
-    padding: 5px;
-    background-color: black;
-    color: white;
-    display: block;
-    float: right;
-    margin-right: 20px;
-}
-
-#video>img {
-    width: 20px;
-    vertical-align: -5px;
-}
-/* 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
- */
-.pictures {
-    display: block;
-    box-sizing: border-box;
-    margin: 50px 0px 0px 0px;
-    padding: 0px;
-    width: 720px;
-}
-
-.teaser {
-    background-color: lightgray;
-    width: 225px;
-    height: 400px;
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 20px;
-    position: relative;
-}
-
-.teaser1 {
-    background-image: url(./assets/images/white-box.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 0px;
-}
-
-.teaser2 {
-    background-image: url(./assets/images/room.jpg);
-    background-position: left;
-    background-size: cover;
-    margin: 0px 15.6px;
-
-}
-.teaser3 {
-    background-image: url(./assets/images/black-white.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 0px;
-}
+                        <img src="./assets/images/open.png" alt="open">
 
 
-.pictures a:link,
-.pictures a:visited {
+                    </section>
+                </a>
+                <a href="#">
+                    <section class="teaser teaser3">
 
-    font-size: 20px;
-    color: white;
-    text-shadow: 1px 1px 5px black;
-}
 
-.pictures img {
-    background-color: white;
-    width: 30px;
-    border-radius: 15px;
-    box-shadow: 0px 0px 1px 7px rgba(255, 255, 255, 0.3);
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-}
+                        <p>
+                            Play music with your voice.
+                        </p>
 
-/* footer */
+                        <img src="./assets/images/open.png" alt="open">
 
-footer {
-    padding: 20px;
-    text-align: center;
-}
+
+                    </section>
+                </a>
+            </section>
+        </main>
+        <footer>
+            All rights reserved &reg; Speaker Shop 2018
+        </footer>
+    </div>
+</body>
+
+</html>
